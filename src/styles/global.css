@@ -1,0 +1,26 @@
+@import url("https://rsms.me/inter/inter.css");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: var(--fontSizes-3);
+  line-height: 19.5px;
+  background-color: var(--colors-grays-700);
+  color: var(--colors-white);
+  margin: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+button {
+  text-transform: none;
+  margin: 0;
+  border: 0;
+  background: 0;
+  outline: none;
+  -webkit-appearance: none;
+}
